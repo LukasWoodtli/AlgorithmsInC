@@ -25,12 +25,14 @@ SET(CMAKE_CXX_FLAGS ${CXXFLAGS})
 set(CFILES
 	main.c
 	quickfind.c
+  quickunion.c
 	)
 
 	
 set(
 	HFILES
 	quickfind.h
+  quickunion.h
 	)
 	
 ADD_DEFINITIONS( -Wall )

@@ -4,7 +4,7 @@
 
 #define N 1000
 
-void quickfind(void)
+void quickfind_f(void)
 {
   int i, p, q, t, id[N];
   // init

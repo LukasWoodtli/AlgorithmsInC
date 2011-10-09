@@ -1,11 +1,12 @@
 #include "quickfind.h"
+#include "quickunion.h"
 
 
 
 int main(int argc, char *argv[])
 {
-	quickfind();
-	
-	
-	return 0;
+  //quickfind_f();
+  quickunion_f();
+
+  return 0;
 }
