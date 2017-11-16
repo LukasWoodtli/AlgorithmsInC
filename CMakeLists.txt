@@ -9,7 +9,6 @@ SET(CMAKE_C_COMPILER gcc)
 SET(CMAKE_CXX_COMPILER g++)
 
 SET(CSTANDARD "-std=gnu99")
-SET(CDEBUG "-gstabs")
 SET(CWARN "-g -Wall -Wstrict-prototypes")
 #SET(CTUNING "-funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums")
 SET(COPT "-Os")
@@ -37,4 +36,6 @@ set(
 	
 ADD_DEFINITIONS( -Wall )
 
-ADD_EXECUTABLE( AlgorithmnsInC WIN32 ${CFILES} ${HFLES} )
+ADD_EXECUTABLE( sort ${CFILES} ${HFLES} )
+
+ADD_EXECUTABLE( shell_sort shell_sort.c )

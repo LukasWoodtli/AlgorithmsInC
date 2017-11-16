@@ -6,7 +6,7 @@
 
 void quickunion_f(void)
 {
-  int i, j, p, q, t, id[N];
+  int i, j, p, q, id[N];
   // init
   for (i = 0; i < N; ++i)
   {
